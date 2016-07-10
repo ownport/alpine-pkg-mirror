@@ -1,0 +1,68 @@
+{
+    "v3.3/main/x86_64": {
+        "url": "http://dl-cdn.alpinelinux.org/alpine/v3.3/main/x86_64/",
+        "packages": [
+            "busybox", "curl", "darkhttpd", "expat", "gdbm", "libacl", "libattr", "libbz2", "libffi", "ncurses", "popt",
+            "privoxy", "python", "python3", "readline", "rsync", "sqlite", "wget", "py-pip", "py-setuptools",
+            "py-meld3", "supervisor", "binutils-libs", "gmp", "isl", "libgomp", "libatomic", "libgcc", "pkgconf",
+            "pkgconfig", "mpfr3", "mpc1", "libstdc++", "gcc", "make", "musl-dev", "libc-dev", "fortify-headers",
+            "g++", "build-base", "libxml2", "zlib-dev", "libxml2-dev", "libgpg-error", "libgcrypt", "libxslt",
+            "libxslt-dev", "openssl", "binutils", "libjpeg", "jpeg-dev", "ca-certificates", "libssh2", "pcre",
+            "git", "libtasn1", "p11-kit", "p11-kit-trust", "libxau", "libxdmcp", "libxcb", "libx11", "libxext",
+            "libxi", "libxrender", "libxtst", "giflib", "alsa-lib", "libpng", "freetype", "libintl", "libintl",
+            "glib", "atk", "fontconfig", "pixman", "cairo", "dbus-libs", "avahi-libs", "nettle", "gnutls",
+            "cups-libs", "shared-mime-info", "hicolor-icon-theme", "tiff", "gdk-pixbuf", "gtk-update-icon-cache",
+            "libxcomposite", "libxfixes", "libxcursor", "libxdamage", "libxrandr", "libxft", "graphite2", "harfbuzz",
+            "pango", "gtk+*", "krb5-conf", "libcom_err", "keyutils-libs", "libverto", "krb5-libs", "lcms2",
+            "pcsc-lite-libs", "lksctp-tools", "nginx", "php-5", "php-fpm", "php-mcrypt", "php-intl", "php-sqlite",
+            "php-pear", "php-net-smtp", "php-mail-mime", "php-xml", "php-json", "php-sqlite3", "php-pdo",
+            "php-pdo_sqlite", "php-iconv", "php-openssl", "php-ldap", "icu-libs", "libltdl", "libmcrypt", "libltdl",
+            "db", "libsasl", "libldap"
+        ],
+        "mirror-path": "../../test/resources/alpine/v3.3/main/x86_64/"
+    },
+    "v3.4/main/x86_64": {
+        "url": "http://dl-cdn.alpinelinux.org/alpine/v3.4/main/x86_64/",
+        "packages": [
+            "busybox", "curl", "darkhttpd", "expat", "gdbm", "libacl", "libattr", "libbz2", "libffi", "ncurses", "popt",
+            "privoxy", "python", "python3", "readline", "rsync", "sqlite", "wget", "py-pip", "py-setuptools",
+            "py-meld3", "supervisor", "binutils-libs", "gmp", "isl", "libgomp", "libatomic", "libgcc", "pkgconf",
+            "pkgconfig", "mpfr3", "mpc1", "libstdc++", "gcc", "make", "musl-dev", "libc-dev", "fortify-headers",
+            "g++", "build-base", "libxml2", "zlib-dev", "libxml2-dev", "libgpg-error", "libgcrypt", "libxslt",
+            "libxslt-dev", "openssl", "binutils", "libjpeg", "jpeg-dev", "ca-certificates", "libssh2", "pcre",
+            "git", "libtasn1", "p11-kit", "p11-kit-trust", "libxau", "libxdmcp", "libxcb", "libx11", "libxext",
+            "libxi", "libxrender", "libxtst", "giflib", "alsa-lib", "libpng", "freetype", "libintl", "libintl",
+            "glib", "atk", "fontconfig", "pixman", "cairo", "dbus-libs", "avahi-libs", "nettle", "gnutls",
+            "cups-libs", "shared-mime-info", "hicolor-icon-theme", "tiff", "gdk-pixbuf", "gtk-update-icon-cache",
+            "libxcomposite", "libxfixes", "libxcursor", "libxdamage", "libxrandr", "libxft", "graphite2", "harfbuzz",
+            "pango", "gtk+*", "krb5-conf", "libcom_err", "keyutils-libs", "libverto", "krb5-libs", "lcms2",
+            "pcsc-lite-libs", "lksctp-tools", "nginx", "php-5", "php-fpm", "php-mcrypt", "php-intl", "php-sqlite",
+            "php-pear", "php-net-smtp", "php-mail-mime", "php-xml", "php-json", "php-sqlite3", "php-pdo",
+            "php-pdo_sqlite", "php-iconv", "php-openssl", "php-ldap", "icu-libs", "libltdl", "libmcrypt", "libltdl",
+            "db", "libsasl", "libldap", "ncurses-terminfo", "ncurses-terminfo-base", "ncurses-libs", "sqlite-libs",
+            "xz-libs"
+        ],
+        "mirror-path": "../../test/resources/alpine/v3.4/main/x86_64/"
+    },
+    "v3.4/community/x86_64": {
+        "url": "http://dl-cdn.alpinelinux.org/alpine/v3.4/community/x86_64/",
+        "packages": [
+
+        ],
+        "mirror-path": "../../test/resources/alpine/v3.4/community/x86_64/"
+    },
+    "edge/testing/x86_64": {
+        "url": "http://dl-cdn.alpinelinux.org/alpine/edge/testing/x86_64/",
+        "packages": [
+            "runit", "libzip"
+        ],
+        "mirror-path": "../../test/resources/alpine/edge/testing/x86_64/"
+    },
+    "edge/community/x86_64": {
+        "url": "http://dl-cdn.alpinelinux.org/alpine/edge/community/x86_64/",
+        "packages": [
+            "tini", "java-cacerts", "java-common", "openjdk7", "openjdk8"
+        ],
+        "mirror-path": "../../test/resources/alpine/edge/community/x86_64/"
+    }
+}
